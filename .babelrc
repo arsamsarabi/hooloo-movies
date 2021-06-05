@@ -1,0 +1,23 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    "inline-react-svg",
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "extensions": [".ios.js", ".android.js", ".js", ".ts", ".tsx", ".json"],
+        "alias": {
+          "#components": "./src/components",
+          "#pages": "./src/pages",
+          "#assets": "./src/assets",
+          "#types": "./src/types",
+          "#utils": "./src/utils",
+          "#hooks": "./src/hooks",
+          "#context": "./src/context",
+          "#styles": "./src/styles"
+        }
+      }
+    ]
+  ]
+}
