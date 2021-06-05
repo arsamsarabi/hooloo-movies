@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { MetaProps } from '../../types/layout'
-import Head from '../Head'
+import { MetaProps } from '#types/layout'
+import Head from '#components/Head'
 
 type LayoutProps = {
   children: React.ReactNode

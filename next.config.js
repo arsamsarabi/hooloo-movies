@@ -1,5 +1,7 @@
-module.exports = {
+const withImages = require('next-images')
+
+module.exports = withImages({
   images: {
-    domains: ['links.papareact.com', 'image.tmdb.org'],
+    domains: ['images.tmdb.org'],
   },
-}
+})

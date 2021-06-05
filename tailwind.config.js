@@ -6,13 +6,15 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        '3xl': '2048px',
+      },
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
-  colors: {
-    huluGreen: '#06202A',
-  },
+  plugins: [require('tailwind-scrollbar-hide')],
+  colors: {},
 }

@@ -1,5 +1,4 @@
 import React, { FC, ElementType } from 'react'
-import Image from 'next/image'
 
 interface HeaderItemProps {
   title: string
