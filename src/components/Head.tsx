@@ -8,8 +8,8 @@ const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
   const router = useRouter()
 
   const meta: MetaProps = {
-    title: 'Hulu clone',
-    description: 'Hulu like application',
+    title: 'Hooloo Movies',
+    description: 'Hooloo movies suggestions',
     image: `http://localhost:3000/images/site-preview.png`,
     type: 'website',
     date: '05/06/2021',
